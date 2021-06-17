@@ -188,23 +188,23 @@ small {
   color: var(--dark-theme-title-color);
 }
 
-.offers-list {
+.offers-grid {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
 }
 
-.offers-grid {
+.offers-list-grid {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 32px) / 2);
 }
 
-.offers-grid:not(:nth-child(2n)) {
+.offers-list-grid:not(:nth-child(2n)) {
   margin-right: 32px;
 }
 
-.offers-grid:not(:nth-last-child(-n + 2)) {
+.offers-list-grid:not(:nth-last-child(-n + 2)) {
   margin-bottom: 32px;
 }
 
