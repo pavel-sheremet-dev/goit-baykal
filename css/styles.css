@@ -87,9 +87,64 @@ small {
   font-style: normal;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ------------------- END GLOBAL ------------------- */
 
-/* ------------ SUGGESTIONS -----------*/
+/* ------------- TOURS SECTION ------------ */
+
+.tours {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.tours-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.tours-item {
+  border-radius: 6px;
+  border: 1px solid #d9d9de;
+}
+
+.tours-link {
+  padding-bottom: 16px;
+}
+
+.tour-item-img {
+  margin-bottom: 16px;
+}
+
+.tours-item-title {
+  padding-left: 19px;
+  padding-right: 19px;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--light-theme-title-color);
+}
+
+/* ------------- END TOURS ------------ */
+
+/* ------------ OFFERS -----------*/
 
 .offers-section {
   padding-top: 76px;
@@ -208,7 +263,7 @@ small {
   margin-bottom: 32px;
 }
 
-/* ------------ END SUGGESTIONS -----------*/
+/* ------------ END OFFERS -----------*/
 
 /* ------------------- FOOTER ------------------- */
 
