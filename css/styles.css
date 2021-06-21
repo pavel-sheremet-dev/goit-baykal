@@ -165,13 +165,13 @@ small {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
-  /* justify-content: start;
-  align-items: flex-start; */
 }
 
-.offers-link {
+.offers-item-link {
   position: relative;
   display: inline-block;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .offers-item:nth-child(3) {
