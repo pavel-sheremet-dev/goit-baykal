@@ -1,0 +1,20 @@
+.navigation {
+  position: absolute;
+  width: 100%;
+  top: 82px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navigation__menu {
+  display: flex;
+}
+
+.navigation__item {
+  @include _fs_lh(16, 19);
+  color: var(--dark-theme-title-color);
+
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}

@@ -1,0 +1,17 @@
+.contacts__item {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  @include _fs_lh();
+  color: var(--dark-theme-title-color);
+
+  &:not(:last-child) {
+    margin-right: 33px;
+  }
+}
+
+.contacts__icon {
+  margin-right: 13px;
+  fill: var(--dark-theme-title-color);
+  opacity: 0.8;
+}

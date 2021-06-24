@@ -11,12 +11,81 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/main.min.css">
   <title>Document</title>
 </head>
 
 <body>
+
+  <!-- Header -->
+
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo header__logo link" href="">
+        <svg class="logo__icon" width="54" height="54">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>
+        <div class="logo__text-wrapper">
+          <p class="logo__name">Байкальский отдых</p>
+          <p class="logo__company">Турагентство</p>
+        </div>
+      </a>
+      <ul class="contacts header__contacts list">
+        <li class="contacts__item">
+          <svg class="contacts__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-envelope"></use>
+          </svg>
+          <a class="contacts__link link" href="tel:8-924-3-541-540"> 8-924-3-541-540 </a>
+        </li>
+        <li class="contacts__item">
+          <svg class="contacts__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+          <a class="contacts__link link" href="baikalholiday@mail.ru"> baikalholiday@mail.ru </a>
+        </li>
+      </ul>
+      <button class="modal-btn header__modal-btn" type="button">Оставить заявку</button>
+    </div>
+  </header>
+
+<!-- navigation -->
+
+  <nav class="navigation">
+    <div class="container">
+      <ul class="navigation__menu list">
+        <li class="navigation__item">
+          <a class="navigation__link link" href=""> Бронирование </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href=""> Экскурсии </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href=""> Туры на Байкал </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href=""> О Байкале </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href=""> О нас </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <main>
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Путешествия <br> по Байкалу</h1>
+        <p class="hero__description">Туры по самому красивому месту России.<br>Поехали с нами за новыми впечатлениями!</p>
+        <a class="hero__link-btn link-btn link-btn_uppercase link" href="">Оставить заявку </a>
+        <a class="hero__arrow link" href="">
+          <svg class="hero__icon" width="13" height="18">
+            <use href="./images/icons.svg#icon-arrow"></use>
+          </svg>
+        </a>
+      </div>
+    </section>  
 
     <!-- Tours section -->
 
@@ -319,10 +388,15 @@
         
         <div class="terms-link">
           <a class="footer-bottom-column-link dark-title" href="">Политика конфиденциальности</a>
-          <a class="footer-bottom-column-logo link" href="">Дизайн<img class="studio-logo" src="./images/studio-logo.svg" alt="логотип веб-студии" width="52" height="22"></a>
+          <a class="footer-bottom-column-logo link" href="">
+            Дизайн
+            <svg class="studio-logo" width="52" height="22">
+              <use href="./images/icons.svg#icon-studio-logo"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
-    
   </footer>
+</body>
 

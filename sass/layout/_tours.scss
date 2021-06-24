@@ -1,0 +1,35 @@
+.tours {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.tours-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.tours-item {
+  border-radius: 6px;
+  border: 1px solid #d9d9de;
+  overflow: hidden;
+}
+
+.tours-link {
+  padding-bottom: 16px;
+}
+
+.tour-item-img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.tours-item-title {
+  padding-left: 19px;
+  padding-right: 19px;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--light-theme-title-color);
+}

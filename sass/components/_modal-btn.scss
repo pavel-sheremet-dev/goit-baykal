@@ -1,0 +1,18 @@
+.modal-btn {
+  padding-top: 12px;
+  padding-bottom: 13px;
+  padding-left: 26px;
+  padding-right: 26px;
+  @include _fs_lh(16, 19);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 22px;
+  cursor: pointer;
+  color: var(--dark-theme-title-color);
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-btn-color1);
+    border-color: var(--accent-btn-color1);
+  }
+}

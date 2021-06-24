@@ -1,0 +1,14 @@
+.logo__text-wrapper {
+  margin-left: 20px;
+}
+
+.logo__name {
+  font-family: var(--titles-font-family);
+  @include _fs_lh(20, 26);
+  color: var(--dark-theme-title-color);
+}
+
+.logo__company {
+  @include _fs_lh(18, 21);
+  color: var(--dark-theme-title-color);
+}

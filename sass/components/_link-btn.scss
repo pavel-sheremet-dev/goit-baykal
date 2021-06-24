@@ -1,0 +1,21 @@
+.link-btn {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 53px;
+  padding-right: 53px;
+  @include _fs_lh(18, 21);
+  border: 1px solid var(--dark-theme-title-color);
+  border-radius: 30px;
+  color: var(--dark-theme-title-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-btn-color1);
+    border-color: var(--accent-btn-color1);
+  }
+}
+
+.link-btn_uppercase {
+  text-transform: uppercase;
+}
