@@ -239,6 +239,19 @@ body {
   position: relative;
   border-radius: 6px;
   overflow: hidden;
+  transition: transform 250ms linear;
+}
+
+.offer-card__link:hover, .offer-card__link:focus {
+  transform: scale(1.04);
+}
+
+.offer-card__link_hover_smaller {
+  transition: transform 250ms linear;
+}
+
+.offer-card__link_hover_smaller:hover {
+  transform: scale(1.02);
 }
 
 .offer-card__overlay {

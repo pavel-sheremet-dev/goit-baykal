@@ -2,6 +2,20 @@
   position: relative;
   border-radius: 6px;
   overflow: hidden;
+  transition: transform 250ms linear;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.04);
+  }
+}
+
+.offer-card__link_hover_smaller {
+  transition: transform 250ms linear;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 .offer-card__overlay {
