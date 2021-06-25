@@ -1,15 +1,17 @@
-body {
-  font-family: var(--text-font-family);
-  color: var(--light-theme-text-color);
-}
-
 .container {
   width: 1150px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-// .section {
-//     padding-top: 150px;
-//     padding-bottom: 150px;
-// }
+.section_border_bottom {
+  border-bottom: 1px solid #d9d9de;
+}
+
+.section_light-bg_blue {
+  background-color: var(--light-bg-blue);
+}
+
+.section_light-bg_green {
+  background-color: var(--light-bg-green);
+}

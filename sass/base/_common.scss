@@ -33,3 +33,8 @@ small {
 .list {
   list-style: none;
 }
+
+body {
+  font-family: var(--text-font-family);
+  color: var(--light-theme-text-color);
+}

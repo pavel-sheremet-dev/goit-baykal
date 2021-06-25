@@ -1,0 +1,24 @@
+.tours-card {
+  border-radius: 6px;
+  border: 1px solid #d9d9de;
+  overflow: hidden;
+}
+
+.tours-card__link {
+  padding-bottom: 16px;
+}
+
+.tours-card__img {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.tours-card__title {
+  padding-left: 19px;
+  padding-right: 19px;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--light-theme-title-color);
+}

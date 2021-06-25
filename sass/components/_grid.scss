@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  gap: 32px;
+}
+
+.grid_column-qty_3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_column-qty_4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+// template
+// first row 1-1-2--
+// secon row 1-1-2--
+// next rows 1-1-1-1
+
+.grid_template:nth-child(3) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
